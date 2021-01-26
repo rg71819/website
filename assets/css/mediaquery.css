@@ -77,6 +77,9 @@
         .form-group{
             width: 250px;
         }
+        form button{
+            width: 250px;
+        }
         .projects{
             width: 250px;
         }
