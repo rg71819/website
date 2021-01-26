@@ -91,6 +91,8 @@
         }
         .nav-text{
             padding: 5px 5px 0 5px;
+            font-size: 15px;
+            font-weight: bold;
         }
         .nav{
             padding: 5px;
