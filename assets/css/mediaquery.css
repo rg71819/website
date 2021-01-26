@@ -85,6 +85,16 @@
             display: block;
             margin: 20 auto;
         }
+         .svg-color-size{
+            height: 25px;
+            width: 25px;
+        }
+        .nav-text{
+            padding: 5px 5px 0 5px;
+        }
+        .nav{
+            padding: 5px;
+        }
 }
 /*
   media query end
