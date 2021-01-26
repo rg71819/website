@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f4f5db;
+}
+/* 
+ atomic css classes
+*/
+.text-center{
+    text-align: center;
+}
+/* 
+  atomic css classes end
+*/
+/*
+ navigation bar 
+*/
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: #d9daafc5;
+    border-radius: 15px;
+}
+nav a{
+    width: fit-content;
+    color: #487e95;
+    fill: #487e95;
+
+}
+nav a:hover{
+    color: #23689b;
+    fill: #23689b;
+}
+nav a:hover .nav-text{
+    border-bottom: 2px solid #23689b;
+}
+nav li{
+    display: inline-block;
+}
+.svg-color-size{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+}
+.nav-text{
+    display: block;
+    padding: 10px 10px 0 10px;
+    border-bottom: 2px solid #23679b00;
+}
+/*
+ navigation bar end
+*/
+
+/*
+ contact form
+*/
+.contact-me{
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-me h1{
+    margin: 20px 0;
+}
+form{
+    width: fit-content;
+    margin: 30px auto;
+}
+.form-group{
+    display: block;
+    height: 30px;
+    width: 300px;
+    margin: 15px 0;
+}
+form button{
+    width: 300px;
+    height: 30px;
+    background-color: #487e95;
+    border: 5px outset #487e95;
+    border-radius: 5px;
+    color: #d9dab0;
+    font-weight: bolder;
+}
+form button:hover{
+    width: 300px;
+    height: 30px;
+    background-color: #23689b;
+    border: 5px outset #23689b;
+    border-radius: 5px;
+    color: #d9dab0;
+    font-weight: bolder;
+}
+/* 
+contact form end
+*/
+/*
+ About Me
+*/
+.about-me{
+    margin: 10px auto 40px auto;
+    width: fit-content;
+    height: 100vh;
+}
+.profile-pic{
+    height: 500px;
+    box-shadow: 15px 15px #bfd0dd;
+}
+.intro{
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+}
+.intro h1{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+}
+.intro p{
+    margin: 10px;
+    font-size: 20px;
+}
+.social ul li{
+    display: inline;
+    padding: 10px;
+}
+.social ul li:nth-child(1) a{
+    fill: #0e578f;
+}
+.social ul li:nth-child(2) a{
+    fill: #258fd6;
+}
+.social ul li:nth-child(3) a{
+    fill: #1b1f23;
+}
+.social-svg{
+    height: 30px;
+    width: 30px;
+}
+/* 
+About Me end
+*/
+/* 
+ projects
+*/
+.projects{
+    width: 900px;
+    margin: 0 auto;
+}
+.project-thumbnail{
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+}
+/* 
+ services css
+*/
+.services-list{
+    width: fit-content;
+    margin: 20px auto;
+    height: 100vh;
+}
+.services{
+    margin: 20px 10px;
+    display: inline-block;
+    width: 300px;
+}
+.services img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.services h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+}

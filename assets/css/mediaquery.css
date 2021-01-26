@@ -1,0 +1,91 @@
+@media only screen and (max-width: 800px){
+    .about-me{
+        height: fit-content;
+        width: 500px;
+        }
+        .projects{
+            width: 600px;
+        }
+        .services-list{
+            height: fit-content;
+        }
+}
+@media only screen and (max-width: 600px){
+    .about-me{
+        height: fit-content;
+        width: 400px;
+        }
+        .profile-pic{
+            height: 400px;
+        }
+        .intro{
+            width: 400px;
+        }
+        .contact-me{
+            width: 400px;
+        }
+        .projects{
+            width: 585px;
+        }
+        .services-list{
+            height: fit-content;
+        }
+}
+@media only screen and (max-width: 500px){
+    .about-me{
+        height: fit-content;
+        width: 350px;
+        }
+        .profile-pic{
+            height: 350px;
+        }
+        .intro{
+            width: 350px;
+        }
+        .contact-me{
+            width: 350px;
+        }
+        .projects{
+            width: 350px;
+        }
+        .project-thumbnail{
+            display: block;
+            margin: 20px auto;
+        }
+        .services-list{
+            height: fit-content;
+        }
+        .services{
+            display: block;
+            margin: 20 auto;
+        }
+}
+@media only screen and (max-width: 350px){
+    .about-me{
+        height: fit-content;
+        width: 250px;
+        }
+        .profile-pic{
+            height: 250px;
+        }
+        .intro{
+            width: 270px;
+        }
+        .contact-me{
+            width: 250px;
+        }
+        .projects{
+            width: 250px;
+        }
+        .project-thumbnail{
+            display: block;
+            margin: 20px auto;
+        }
+        .services{
+            display: block;
+            margin: 20 auto;
+        }
+}
+/*
+  media query end
+*/
